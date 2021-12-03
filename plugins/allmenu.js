@@ -32,9 +32,9 @@ const defaultMenu = {
   before: `
 https://youtube.com/c/ismailkurama
 %readmore`.trimStart(),
-  header: '``` %category ```',
-  body: '``` %cmd %islimit %isPremium ```',
-  footer: ' ',
+  header: '├───⬣ *%category*',
+  body: '```│✇ %cmd %islimit %isPremium ```',
+  footer: '└──────────────',
   after: `
 ${'```CREATED BY ❤️ ISMAIL KURAMA```'}
 `,
@@ -143,7 +143,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(allmenu|kabeh|\#)$/i
+handler.command = /^(menu|help|\#)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
