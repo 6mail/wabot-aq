@@ -30,7 +30,16 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-https://youtube.com/c/ismailkurama
+├────────────────────
+├────────────────────
+├─⬣ %me
+├────────────────────
+├────────────────────
+│✇ Server: *Railway.app*
+│✇ Device: *Linux*
+│✇ Lib: *Baileys*
+│✇ Language: *NodeJs*
+│✇ Script: *Nurutomo/Wabot-aq*
 %readmore`.trimStart(),
   header: '├───⬣ *%category*',
   body: '```│✇ %cmd %islimit %isPremium ```',
